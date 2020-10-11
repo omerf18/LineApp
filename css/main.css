@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: #a7a5a5;
+}
+
+.nav-img {
+    height: 30px;
+    width: 30px;
+}
+
+.dropdown-item:hover {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-item.active {
+    background-color: transparent;
+}
+
+ .pitch {
+    height: 500px;
+    width: 350px;
+    margin-top: 20px auto;
+    background-image: url(../img/pitch.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.ball {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    font-size: 0.8em;
+    opacity: 0;
+}
+
+.att {
+    background-color: red;
+}
+
+.mid {
+    background-color:orange;
+}
+
+.def {
+    background-color: blue;
+}
+
+.gk {
+    background-color: yellow;
+}
+
+.inputs {
+    max-width: 350px;
+}
+
+select {
+    padding: 5px;
+    background-color: #d6d6d6;
+}
+
+.list-group-item {
+font-size: 0.7em;
+background-color:#ffffff00;
+}
+
+.form-control {
+    background-color: #d6d6d6;
+    margin-top:10px;
+    max-height: 40px;
+}
+
+.form-control:focus {
+    background-color: #d6d6d6;
+}
+
+.col-6 {
+margin-top: 25px;
+}
+
+.input-group-text {
+    margin-top: 10px;
+}
+
+.home-img {
+    max-height: 300px;
+    min-width: 100%;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}

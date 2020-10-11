@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Squad</title>
+</head>
+
+<body onload="onSquadLoad()">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4 sticky-top">
+        <div>
+            <img class="nav-img" src="./img/football.png">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        LineUp
+                    </a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item active" href="squad.html">Squad <span
+                                class="sr-only">(current)</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="formation.html">Formation</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container cards">
+
+
+        <div class="row">
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name0" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num0" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update0" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name1" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num1" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update1" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name2" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num2" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update2" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name3" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num3" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update3" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name4" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num4" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update4" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name5" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num5" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update5" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name6" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num6" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update6" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name7" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num7" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update7" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name8" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num8" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update8" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name9" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num9" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update9" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name10" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num10" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update10" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name11" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num11" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update11" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name12" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num12" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update12" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name13" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num13" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update13" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name14" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num14" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update14" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name15" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num15" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update15" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name16" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num16" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update16" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm col-6">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PLAYER CARD</h5>
+                        <p class="card-text">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NAME:</span>
+                            </div>
+                            <textarea id="name17" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">NUMBER:</span>
+                            </div>
+                            <textarea id="num17" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        </p>
+                        <a id="update17" class="btn btn-secondary">Update</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="lib/jQuery/jquery-3.4.1.min.js"></script>
+        <script src="lib/bootstrap/bootstrap.min.js"></script>
+        <script src="js/service.js"></script>
+        <script src="js/controller.js"></script>
+
+</body>
